@@ -52,6 +52,7 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+  width: 65rem;
 }
 
 /* Padding for spacing */
@@ -205,4 +206,16 @@ body {
 
 .app-footer {
   color: white;
+}
+
+tech-news {
+  color: black;
+  margin: 20px;
+}
+ .tech-news > .card {
+  padding: 30px;
+}
+
+.tech-news a {
+  color: green;
 }
