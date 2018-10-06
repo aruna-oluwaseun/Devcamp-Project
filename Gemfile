@@ -77,5 +77,3 @@ gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1' 
 gem 'redis', '~> 3.3', '>= 3.3.3'
-gem 'bootstrap', '~> 4.0.0.alpha6' 
-
