@@ -34,6 +34,9 @@ gem 'petergate','~> 1.8'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
+
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -58,6 +61,11 @@ gem 'friendly_id', '~>5.1.0'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1' 
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick', '~> 4.6'
+gem 'carrierwave-aws', '~> 1.0', '>= 1.0.2'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.2' 
+
 gem 'devise','~>4.2'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'carrierwave', '~> 1.0'
@@ -70,4 +78,3 @@ gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1' 
 gem 'redis', '~> 3.3', '>= 3.3.3'
   
-
