@@ -169,6 +169,10 @@ body {
 .card-block {
   color: black;
   text-align: left;
+  margin-right:10px;
+  margin-left:10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .auth-links a {
@@ -222,3 +226,23 @@ tech-news {
 .tech-news a {
   color: green;
 }
+
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+ .app-card-container > .card {
+  padding: 40px;
+}
+ .profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
+} 
+
+card-block {
+  
+} 
