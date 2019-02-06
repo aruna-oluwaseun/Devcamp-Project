@@ -1,7 +1,18 @@
 class PagesController < ApplicationController
   def home
-  	@posts = News.all
+  	@lists = Listing.rand.featured_blogs
+    @new = Listing.rand.eight
+    @listing_images = ListingImage.all
+    @latest = Listing.recent.latest
+     
   
+  end
+
+  def search
+    @blog = Listing.includes(:searches).find(params[:id])
+    @comment = searches.new
+    
+
   end
 
   def about
@@ -9,6 +20,7 @@ class PagesController < ApplicationController
   end
 
   def contact
+   
   end
   def tech_news
     @tweets = SocialTool.twitter_search

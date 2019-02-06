@@ -11,14 +11,16 @@
 // about supported directives.
 //
 
-//= require jquery
-//= require bootstrap-sprockets
+//= require jquery2
 //= require jquery_ujs
 //= require jquery-ui
-//= require html.sortable
 //= require cocoon
 //= require gritter
 //= require cable
-//= require turbolinks
+//= require Material/tmpl.js
+//= require Material/draggable-0.1.js
+//= require Material/jshashtable-2.1_src.js  
+//= require Material/jquery.slider.js
+//= require Material/smoothscroll.js
 //= require_tree .
 

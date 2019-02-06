@@ -20,7 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -35,8 +35,7 @@ gem 'petergate','~> 1.8'
 # gem 'capistrano-rails', group: :development
 
 gem 'webpacker', '~> 3.5'
-
-
+gem 'bootstrap-sass'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -66,10 +65,9 @@ gem 'mini_magick', '~> 4.6'
 gem 'carrierwave-aws', '~> 1.0', '>= 1.0.2'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.2' 
 gem 'devise','~>4.2'
+gem 'owlcarousel-rails'
 
-
-
-gem 'bootstrap', '~> 4.0.0.alpha6'
+#gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1' 
